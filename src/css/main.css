@@ -15,7 +15,7 @@ html {
 
 body {
   background-color: whitesmoke;
-  font-size: clamp(1.6rem, 5vw, 2rem);
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
   color: #333333;
 }
 
