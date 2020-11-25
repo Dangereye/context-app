@@ -1,0 +1,25 @@
+// Reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $body-bg-color;
+  font-size: clamp(1.6rem, 5vw, 2rem);
+  color: $text-dark-color;
+}
+
+.container {
+  width: 100%;
+  max-width: 140rem;
+  padding: 0 1.6rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
