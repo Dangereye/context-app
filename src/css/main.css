@@ -25,6 +25,7 @@ body {
   padding: 0 1.6rem;
 }
 
+nav,
 section {
   display: flex;
   justify-content: center;
