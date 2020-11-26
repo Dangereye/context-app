@@ -16,11 +16,12 @@ body {
 .container {
   width: 100%;
   max-width: 140rem;
-  padding: 0 1.6rem;
+  padding: 1.6rem;
 }
 
 nav,
-section {
+section,
+footer {
   display: flex;
   justify-content: center;
 }

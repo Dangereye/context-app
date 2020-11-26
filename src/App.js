@@ -1,12 +1,17 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import BookList from './components/BookList';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="app">
-      <section>
-        <div className="container">
-          <h1>Working..</h1>
-        </div >
-      </section>
+      <Navbar />
+      <main>
+        <BookList />
+      </main>
+
+      <Footer />
     </div>
   );
 }

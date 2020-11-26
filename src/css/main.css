@@ -22,15 +22,42 @@ body {
 .container {
   width: 100%;
   max-width: 140rem;
-  padding: 0 1.6rem;
+  padding: 1.6rem;
 }
 
 nav,
-section {
+section,
+footer {
   display: flex;
   justify-content: center;
 }
 
 .app {
   min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul > *:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+section.book-list ul {
+  list-style: none;
+}
+
+footer .copyright {
+  font-size: clamp(1.4rem, 2.5vw, 1.6rem);
 }

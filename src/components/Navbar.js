@@ -1,11 +1,10 @@
-
 import React, { Component } from 'react'
 
 class Navbar extends Component {
     render() {
         return (
             <nav>
-                <div className="logo">
+                <div className="container">
                     <h1>Context App</h1>
                     <ul>
                         <li>Home</li>
@@ -13,6 +12,8 @@ class Navbar extends Component {
                         <li>Contact</li>
                     </ul>
                 </div>
+
+
             </nav>
         )
     }
