@@ -5,6 +5,21 @@ html {
   line-height: 1;
 }
 
+.btn {
+  margin-top: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
+  font-weight: 500;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #1b9bd6;
+  color: white;
+}
+
 *,
 *::before,
 *::after {
@@ -39,12 +54,19 @@ footer {
 }
 
 nav .container {
+  padding: 1rem 1.6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+nav .logo {
+  padding: 1rem 0;
 }
 
 nav ul {
+  padding: 1rem 0;
   list-style: none;
   display: flex;
   align-items: center;
@@ -54,8 +76,21 @@ nav ul > *:not(:last-child) {
   margin-right: 1.6rem;
 }
 
+nav li {
+  font-weight: 300;
+}
+
 section.book-list ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+section.book-list li {
+  padding: 1.6rem;
+  background-color: white;
+  font-weight: 300;
 }
 
 footer .copyright {

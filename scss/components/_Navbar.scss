@@ -1,13 +1,17 @@
 nav {
   .container {
+    padding: 1rem 1.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
   .logo {
+    padding: 1rem 0;
   }
 
   ul {
+    padding: 1rem 0;
     list-style: none;
     display: flex;
     align-items: center;
@@ -15,5 +19,8 @@ nav {
     > *:not(:last-child) {
       margin-right: 1.6rem;
     }
+  }
+  li {
+    font-weight: 300;
   }
 }

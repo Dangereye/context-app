@@ -1,7 +1,13 @@
 section.book-list {
   ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
   }
   li {
+    padding: 1.6rem;
+    background-color: white;
+    font-weight: 300;
   }
 }
