@@ -15,11 +15,10 @@ class Navbar extends Component {
                             <div className="container">
                                 <h1 className='logo'>Context App</h1>
                                 <ul>
-
                                     <li>Home</li>
                                     <li>About</li>
                                     <li>Contact</li>
-                                    <li onClick={toggleAuth}>{isAuthenticated ? 'Sign in' : 'Sign out'}</li>
+                                    <li className='auth-btn' onClick={toggleAuth}>{isAuthenticated ? 'Sign in' : 'Sign out'}</li>
                                 </ul>
                             </div>
                         </nav>
