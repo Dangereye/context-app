@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import BookList from './components/BookList';
 import Footer from './components/Footer';
 import AuthContextProvider from './contexts/AuthContext';
+import BookContextProvider from './contexts/BookContext';
 
 
 const App = () => {
@@ -12,7 +13,9 @@ const App = () => {
       <ThemeContextProvider>
         <AuthContextProvider>
           <Navbar />
-          <BookList />
+          <BookContextProvider>
+            <BookList />
+          </BookContextProvider>
           <Footer />
         </AuthContextProvider>
       </ThemeContextProvider>
