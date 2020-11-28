@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import AuthContextProvider from './contexts/AuthContext';
 
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <ThemeContextProvider>
